@@ -1,0 +1,124 @@
+:root{
+    --main-bg-color:#141e4c;
+    --text-light: #eaeaea;
+    --text-secondary: #fbb44c;
+    --btn-color:#2bb686;
+    --title-color:#101d42;
+}
+
+
+body{
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: scroll;
+overflow-x: hidden;
+}
+
+
+.itschool-logo{
+    margin-left: 335px;
+    padding-top: 2px;
+}
+
+.nav-bt{
+    margin-right: 335px;
+    
+    
+}
+
+
+.navbar-nav > li > a{
+    color: var(--text-light) !important;
+    font-size: 12px ;
+    font-weight: 500;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+    background-color: #101d42;
+    
+    
+}
+
+.nav-link:hover{
+    color: var(--text-secondary) !important;
+
+
+}
+.dropdown-item{
+    color: var(--text-light) !important;
+    font-size: 12px ;
+    font-weight: 500;
+}
+.dropdown-menu{
+    border: transparent !important;
+}
+.dropdown-item:hover{
+    background-color: transparent!important;
+    color: var(--text-secondary) !important;
+    
+    
+}
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/materialicons/v140/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+  }
+
+  .footer{
+    background-color:#101d42;
+    text-align: center;
+    height: 82px;
+    width: 100vw;
+}
+
+.footer-text{
+    
+    font-size: 12px;
+    color: #eaeaea;
+    padding: 16px 0;
+    padding-top: 30px;
+}
+
+
+nav{
+    position: sticky !important;
+    top: 0;
+    background-color:var(--main-bg-color);
+    z-index: 1;
+}
+
+.dropdown-item{
+    background-color: #101d42 !important;
+}
+
+.display{
+    display: none;
+}
+
+@media screen and (max-width:1212px) {
+.itschool-logo{
+    margin: 0%;
+    width: 140px;
+}
+
+.nav-link{
+    width: 100px;
+}
+
+
+}
+
+
+@media screen and (max-width:983px){
+    .dropdown{
+        display: none;
+    }
+    
+    .display{
+        display: block;
+    }
+}
+ 
+

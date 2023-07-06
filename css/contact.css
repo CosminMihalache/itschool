@@ -1,0 +1,212 @@
+@import "./main.css";
+
+
+
+
+
+.contact-welcome{
+    width: 100vw;
+    height: 400px;
+    background-color: #141e4c;
+    text-align: center;
+}
+
+
+.text-contact{
+    font-size: 52px;
+    color: #eaeaea;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 120px;
+    
+}
+
+
+
+.container-f{
+    text-align: center;
+
+}
+
+.text-c{
+    margin-top: 40px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #141e4c;
+    padding: 30px;
+}
+
+
+.p-c{
+    text-align: left;
+    margin: 0 280px;
+}
+
+
+.icon{
+    font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 1;
+ 
+}
+
+
+
+.contact{
+    width: 500px;
+
+list-style-type: none;
+margin-left: 150px;
+padding: 0;
+}
+.contact-l{
+    border-bottom: 1px solid #9a9292;
+    margin-top: 20px;
+}
+
+
+.mobile{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.text1{
+font-size: 14px;
+color: #2b2922;
+}
+
+.text2{
+font-size: 14px;
+color: #5a5b5d;
+}
+
+
+.container-form{
+    float: right;
+   width: 580px;
+   height: 448px;
+   margin-left: 40px;
+}
+
+.xd{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input{
+    width: 500px;
+    border-radius: 3px;
+    border: 1px solid #9e9d9d;
+
+   
+}
+
+::placeholder{
+    font-size: 13px;
+    padding: 20px 5px;
+    text-align: left;
+   
+}
+
+label{
+
+    font-size: 14px;
+    color: #2b2922;
+padding-top:20px;
+}
+
+textarea{
+    width: 552px;
+    height: 100px;
+    background-color: #ffff;
+border: 1px solid #dddd;
+margin: 0 0 16px;
+}
+
+
+.bt-form{
+    background-color: #2bb686;
+    border: 1px solid #2bb686;
+    padding: 0;
+    color: #eaeaea;
+    font-size: 14px;
+    width: 100px;
+    height: 34px;
+    border-radius: 7px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+a:hover{
+    color: #9e9d9d !important;
+}
+
+
+
+@media screen and (max-width:1190px){
+   .p-c{
+    margin: 0 200px;
+   }
+    }
+
+
+    @media screen and (max-width:700px){
+        .p-c{
+         margin: 0 50px;
+        }
+         }
+
+
+         @media screen and (max-width:500px){
+            .p-c{
+             margin: 0 20px;
+            }
+             }
+             @media screen and (max-width:1243px){
+               .contact{
+                margin:0 10px;
+               }
+               .text-contact{
+                margin: 0 5px;
+               }
+                 }
+
+                 @media screen and (max-width:580px){
+                    .contact{
+                     width: 90%;
+                    }
+                    .container-form{
+                        
+                        margin-right:70px;
+                        width:fit-content;
+                    }
+                    input{
+                        width: 128%;
+                    }
+                    textarea{
+                        width: 300px;
+                    }
+                      }
+
+                      
+                 @media screen and (max-width:530px){
+                    .contact{
+                     width: 100%;
+                    }
+                    .container-form{
+                        
+                        margin-left:0;
+                        
+                    }
+                    
+                      }
